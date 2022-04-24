@@ -6,6 +6,17 @@ Please download MIT-Adobe FiveK Dataset (https://data.csail.mit.edu/graphics/fiv
 ### Requirements
 Python3, requirements.txt
 ### Evaluation
-  python test.py DIR_DATASET DIR_MODEL --test-list DIR_LIST --results DIR --score-path DIR
+    python test.py [-h] [--test-list] [--results PATH] [--score-path PATH]
+                        DIR DIR
+        positional arguments:
+        DIR                       path to testset
+        DIR                       path to models
+
+        optional arguments:
+        -h, --help                show this help message and exit
+        --test-list               path to test list(.txt)
+        --results                 path to save results
+        --score-path              path to save predicted exposure settings and psnr
+        
 ### Training
 TODO
