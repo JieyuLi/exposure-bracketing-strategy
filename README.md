@@ -7,6 +7,8 @@ Please download MIT-Adobe FiveK Dataset (https://data.csail.mit.edu/graphics/fiv
 ## Usage
 ### Requirements
 Python3, requirements.txt
+### Quick Demo
+        python test.py ./ pretrained_model/policy_post_model_best.path.tar --test-list demo_list.txt --results results --score-path results/score.txt
 ### Evaluation
         python test.py [-h] [--test-list] [--results PATH] [--score-path PATH]
                         DIR DIR
