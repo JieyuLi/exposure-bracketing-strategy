@@ -1,12 +1,14 @@
 # exposure-bracketing-strategy
+A lightweight neural network for exposure bracketing strategy for HDR imaging.
+
 ## Download
-NightHDR Dataset (https://github.com/JieyuLi/night-hdr-dataset)
+NightHDR Dataset (https://github.com/JieyuLi/night-hdr-dataset).
 Please download MIT-Adobe FiveK Dataset (https://data.csail.mit.edu/graphics/fivek/) for day scene images, and run FiveKdata.py to prepocess the data.
 ## Usage
 ### Requirements
 Python3, requirements.txt
 ### Evaluation
-    python test.py [-h] [--test-list] [--results PATH] [--score-path PATH]
+        python test.py [-h] [--test-list] [--results PATH] [--score-path PATH]
                         DIR DIR
         positional arguments:
         DIR                       path to testset
